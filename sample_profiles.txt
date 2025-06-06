@@ -1,0 +1,50 @@
+# Sample LinkedIn Profiles for Testing AI Profile Generator
+# Use these public LinkedIn profiles for testing and demo purposes
+
+# ===== URL-BASED USAGE =====
+# Tech Industry Leaders
+https://www.linkedin.com/in/satyanadella/        # Satya Nadella - Microsoft CEO
+https://www.linkedin.com/in/sundarpichai/        # Sundar Pichai - Google CEO
+https://www.linkedin.com/in/jeffweiner08/        # Jeff Weiner - Former LinkedIn CEO
+
+# Business Leaders
+https://www.linkedin.com/in/reidhoffman/          # Reid Hoffman - LinkedIn Co-founder
+https://www.linkedin.com/in/melindagates/        # Melinda French Gates - Philanthropist
+https://www.linkedin.com/in/virginbranson/       # Richard Branson - Virgin Group
+
+# Authors & Thought Leaders
+https://www.linkedin.com/in/simon-sinek-2609923/ # Simon Sinek - Author & Speaker
+https://www.linkedin.com/in/danielpink/          # Daniel Pink - Author
+https://www.linkedin.com/in/adamgrant/           # Adam Grant - Wharton Professor
+
+# ===== NAME-BASED USAGE EXAMPLES =====
+# You can now search by name instead of URL:
+
+# Tech Industry Leaders (Name Search)
+# python profile_generator.py --name "Satya Nadella" --company "Microsoft"
+# python profile_generator.py --name "Sundar Pichai" --company "Google"
+# python profile_generator.py --name "Tim Cook" --company "Apple"
+
+# Business Leaders (Name Search)
+# python profile_generator.py --name "Reid Hoffman" --company "LinkedIn"
+# python profile_generator.py --name "Melinda Gates"
+# python profile_generator.py --name "Richard Branson" --company "Virgin"
+
+# ===== USAGE EXAMPLES =====
+
+# URL-based usage:
+# python profile_generator.py https://www.linkedin.com/in/satyanadella/
+# python profile_generator.py https://www.linkedin.com/in/sundarpichai/ --verbose
+# python profile_generator.py https://www.linkedin.com/in/reidhoffman/ --context "Partnership discussion"
+
+# Name-based usage:
+# python profile_generator.py --name "Satya Nadella" --company "Microsoft"
+# python profile_generator.py --name "Tim Cook" --company "Apple" --verbose
+# python profile_generator.py --name "Reid Hoffman" --context "Investment meeting"
+
+# Notes:
+# - These are public profiles that are frequently mentioned in news
+# - Perfect for testing news integration
+# - Well-known personalities with rich professional backgrounds
+# - Good for demonstrating AI briefing capabilities
+# - Name-based search works best with full names and company context 
